@@ -1,0 +1,16 @@
+<!-- /views/new_payment_calc.erb -->
+
+<h1>Calculate the payment</h1>
+
+<form action="/payment/results" >
+  <div>
+    <label for="apr">Enter your APR(annual percentage rate): </label>
+    <input id="apr" type="text" name="apr">
+
+    <label for="yrs_remain">Number of years </label>
+    <input id="yrs_remain" type="text" name="yrs_remain">
+
+    <label for="present_value">Principal: </label>
+    <input id="present_value" type="text" name="present_value">
+  </div>
+<button>Calculate Monthly Payment</button>
